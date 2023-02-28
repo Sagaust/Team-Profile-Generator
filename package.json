@@ -1,0 +1,28 @@
+{
+  "name": "team-profile-generator",
+  "version": "1.0.0",
+  "description": "\u0016This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sagaust/Team-Profile-Generator.git"
+  },
+  "keywords": [
+    "nodejs",
+    "jest",
+    "javascript"
+  ],
+  "author": "Augustine Farinola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sagaust/Team-Profile-Generator/issues"
+  },
+  "homepage": "https://github.com/Sagaust/Team-Profile-Generator#readme",
+  "devDependencies": {
+    "inquirer": "^9.1.4",
+    "jest": "^27.5.1"
+  }
+}
