@@ -8,9 +8,14 @@ const Manager = require("./lib/Manager");
 const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const generateHTML = require('./src/page-template');
+const outputPath = "./output/team.html";
+const render = require('./src/page-template.js');
+
 
 // Create an empty array to hold team members
 const teamMembers = [];
+
+
 
 // Function to prompt for manager's details
 async function promptManager() {
