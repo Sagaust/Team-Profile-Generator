@@ -1,7 +1,7 @@
 {
   "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "\u0016This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person",
+  "description": "This application will take in information about employees on a software engineering team, then generates an HTML webpage that displays summaries for each person",
   "main": "index.js",
   "scripts": {
     "test": "node index.js"
@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/Sagaust/Team-Profile-Generator#readme",
   "devDependencies": {
-    "inquirer": "^9.1.4",
-    "jest": "^27.5.1"
+    "inquirer": "^6.5.0",
+    "jest": "^27.5.1",
+    "open": "^8.4.1"
   }
 }
